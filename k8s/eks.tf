@@ -8,7 +8,7 @@ module "eks" {
   vpc_id          = module.vpc.vpc_id
 
   eks_managed_node_group_defaults = {
-    ami_type = "AL2_x86_64"
+    ami_type = "ami-020cba7c55df1f615"
   }
 
   eks_managed_node_groups = {
